@@ -25,17 +25,42 @@
 .but-brow:hover{
     background-color:aliceblue;
 }
-footer {
-    position: absolute;
-    top:90%;
-    left:37%;
-}
 /*END OF DNR*/
 #about-me {
     width: 700px;
     margin-bottom: 25px;
     margin-left:auto;
 }
-h3 {
-    color:rgb(72, 72, 72);
+.EXP-BOX {
+    padding: 13px;
+    margin: 5px;
+    background-color: rgb(139, 196, 232);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    width: 300px;
+}
+.name-contest, .name-program, .name-expres {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    background-color: rgb(180, 221, 246);
+}
+.ngo-name {
+    padding: 14px;
+    margin: 5px;
+    background-color: rgb(116, 196, 246);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.pro-name {
+    padding: 14px;
+    margin: 10px;
+    max-width: px;
+    background-color: rgb(116, 196, 246);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
 }
