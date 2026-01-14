@@ -50,7 +50,7 @@
 .ngo-name {
     padding: 14px;
     margin: 5px;
-    background-color: rgb(116, 196, 246);
+    background-color: rgb(139, 196, 232);
     border-radius: 30px;
     display: flex;
     flex-direction: column;
@@ -59,7 +59,7 @@
     padding: 14px;
     margin: 10px;
     max-width: px;
-    background-color: rgb(116, 196, 246);
+    background-color: rgb(139, 196, 232);
     border-radius: 30px;
     display: flex;
     flex-direction: column;
