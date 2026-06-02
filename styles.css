@@ -1,66 +1,35 @@
-/*DO NOT REMOVE: USE IN ALL PAGES*/ 
+body {
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #card {
-    background-color:azure;
-    border-radius: 20px;
-    padding:20px;
-    margin: 30px;
-    box-shadow: 0 0 15px 5px rgba(187, 208, 231, 0.7);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display:flex;
-    flex-direction:column;
-}
-#buttons {
-    margin: 5px;
-    text-align: center;
-}
-.but-brow {
-    background-color:azure;
+    /* display: flex; */
     border-radius: 5px;
-    padding:10px;
-    margin:10px;
+    background-color: rgb(238, 230, 217);
+    width: 60%;
+    padding: 20px;
 }
-.but-brow:hover{
-    background-color:aliceblue;
+
+a {
+    text-decoration: none;
 }
-/*END OF DNR*/
-#about-me {
-    width: 700px;
-    margin-bottom: 25px;
-    margin-left:auto;
+
+#bar {
+    margin-top: 20px;
 }
-.EXP-BOX {
-    padding: 13px;
-    margin: 5px;
-    background-color: rgb(139, 196, 232);
-    border-radius: 30px;
-    display: flex;
-    flex-direction: column;
-    flex-shrink: 0;
-    width: 300px;
+
+.button {
+    border-radius: 3px;
+    background-color: rgb(38, 38, 147);
+    color: azure;
+    /* height: 10px; */
+    padding: 5px;
 }
-.name-contest, .name-program, .name-expres {
-    padding: 10px;
-    margin: 5px;
-    border-radius: 8px;
-    background-color: rgb(180, 221, 246);
-}
-.ngo-name {
-    padding: 14px;
-    margin: 5px;
-    background-color: rgb(139, 196, 232);
-    border-radius: 30px;
-    display: flex;
-    flex-direction: column;
-}
-.pro-name {
-    padding: 14px;
-    margin: 10px;
-    max-width: px;
-    background-color: rgb(139, 196, 232);
-    border-radius: 30px;
-    display: flex;
-    flex-direction: column;
+
+.button:hover {
+    background-color: rgb(25, 25, 109);
 }
