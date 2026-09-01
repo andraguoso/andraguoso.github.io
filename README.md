@@ -1,2 +1,2 @@
 # andraguoso
-Personal website where I document my experiences.
+Personal website where I document my experiences + learn Tailwind CSS.
