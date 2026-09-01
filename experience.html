@@ -6,76 +6,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Experience</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="https://tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
     <div id="card">
-        <div>
+        <div class="flex flex-col items-start gap-2">
             <h1>Experience</h1>
             I am still exploring what makes me interested in computing, but I find my pattern
             involves psychology and biology.
             <a class="button" href="index.html">Home</a>
         </div>
-        <div>
-            <div class="EXP-BOX">
+
+        <div class="gap-5">
+            <!--RESEARCH-->
+            <div class="flex flex-col items-center bg-taupe-100">
                 <h4>Research</h4>
-                <div class="exp-box-content">
-                    <img src="">
-                    <div class="pos">
-                        <b>QuantumHub Perú</b>
-                        Fellow (Sept – Nov 2025)
-                        <br>First high school cohort of the first quantum computing course in Latin America.
-                        Ranked third in the entrance exam, worked through three modules:
+                <div class="flex items-center gap-5">
+                    <img class="w-20 h-15" src="icons/quantumhub.jpeg">
+
+                    <div class="">
+                        <span class="">QuantumHub Perú</span>
+                        <div>
+                            Junior Research Assistant (Mar 2026 – Present)
+                            <br> One of two high schoolers in the Quantum Software team. Part of the Visualization
+                            subteam.
+                        </div>
+                        <div>
+                            Fellow (Sept – Nov 2025)
+                            <br>First high school cohort of the first quantum computing course in Latin America.
+                            Ranked third in the entrance exam, worked through three modules:
+                            <ul>
+                                <li>QC101: Basics of linear algebra, Dirac notation, Qiskit, and
+                                    computation theory.</li>
+                                <li>QC201: Bloch's sphere, quantum gates, entanglement,
+                                    measurement, quantum circuits.</li>
+                                <li> QC301: Teleportation, superdense coding,
+                                    Deutsch-Jozsa, Grover. </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--CONTESTS-->
+            <div class="flex flex-col items-center">
+                <h4>Contests</h4>
+                <div class="">
+                    <div class="flex">
+                        <img src="">
+                        <div>
+                            <b>Peruvian Informatics Olympiad</b>
+                            <ul>
+                                <li>2026: Seventh place nationally, Peruvian delegate for the Ibero-American
+                                    Olympiad in Informatics.</li>
+                                <li>2025: Reached national stage.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <img src="">
+                        <div>
+                            <b>CodeSprint LA</b>
+                            <br>2026, High School division: 13th place over 100+ participants.
+                            Amazing team!
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-5">
+                        <img class="w-24 h-12" src="icons/mitit.png">
+                        <div>
+                            <b>MIT Informatics Contest, M(IT)^2</b>
+                            <ul>
+                                <li>2025 Winter: Open Division participant.</li>
+                                <li>2026 Spring: Round 2 qualifier.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--PROGRAMS-->
+            <div class="flex flex-col items-center">
+                <h4>Programs</h4>
+                <div class="flex items-center gap-5">
+                    <img class="w-20 h-20" src="icons/kwk.jpeg">
+                    <div>
+                        <b>Kode With Klossy</b>
                         <ul>
-                            <li>QC101: High school only <br>Basics of linear algebra, Dirac notation, Qiskit, and
-                                computation theory.
-                            <li>QC201: Basics of quantum computing <br>Bloch's sphere, quantum gates, entanglement,
-                                measurement, quantum circuits.
-                            <li> QC301: Quantum protocols and algorithms <br> Teleportation, superdense coding,
-                                Deutsch-Jozsa, Grover.
+                            <li>2026: AI/ML camp</li>
+
+                            <li>2025: Web Development camp<br>
+                                Built Helping Hearts<!--ADD LINK-->, an informative portal that helps underserved
+                                communities
+                                access healthcare. Led the wireframing process.</li>
                         </ul>
                     </div>
                 </div>
-            </div>
-            <div class="EXP-BOX">
-                <h4>Contests</h4>
-                <div class="exp-box-context">
-                    <div class="name-contest">
-                        <img src="">
-                        <b>Peruvian Informatics Olympiad</b>
-                        <br>2026: Seventh place nationally, Peruvian delegate for the Ibero-American
-                        Olympiad in Informatics.
-                        2025: Reached national stage.
-                    </div>
-                    <div class="name-contest">
-                        <img src="">
-                        <b>CodeSprint LA</b>
-                        <br>2026, High School division: 13th place over 100+ participants.
-                        Amazing team!
-                    </div>
-                    <div class="name-contest">
-                        <img class="" src="icons/mitit.png">
-                        <b>MIT Informatics Contest, M(IT)^2</b>
-                        <br>2025 Winter: Open Division participant.
-                        <br>2026 Spring: Round 2 qualifier.
-                    </div>
-                </div>
-            </div>
-            <div class="EXP-BOX">
-                <h4>Programs</h4>
-                <div class="exp-box-context">
+                <div class="flex items-center gap-5">
                     <img src="">
-                    <div class="name-program">
-                        <b>Kode With Klossy</b>
-                        2026: AI/ML camp<br>
-
-                        2025: Web Development camp<br>
-                        Built Helping Hearts<!--ADD LINK-->, an informative portal that helps underserved communities
-                        access healthcare. Leaded the wireframing process. Was named Most Likely to Help!
-                    </div>
-                    <div class="name-program">
-                        <img src="">
+                    <div>
                         <b>Beaver Works Summer Institute, EdX</b>
                         Quantum Development Software, Computer Science and Systems, and Python Core; 2026
                     </div>
@@ -83,10 +110,8 @@
             </div>
         </div>
     </div>
-</body>
-
-</html>
-<script src="scripts.js"></script>
+    </div>
+    <script src="scripts.js"></script>
 </body>
 
 </html>
