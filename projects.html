@@ -8,30 +8,29 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
     </style>
-    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="output.css">
 </head>
 
 <body>
-    <div>
-        <nav class="flex flex-row items-center px-5 py-2 gap-2 bg-orange-400">
-            <a href="index.html" class="font-bold text-2xl">ANDREA AGUILAR</a>
-            <div class="flex md:flex-row justify-end gap-8 flex-1">
-                <a href="experience.html" class="p-2 font-bold hover:text-sky-200">Experience</a>
-                <a href="contests.html" class="p-2 font-bold hover:text-sky-200">Contests</a>
-                <a href="activities.html" class="p-2 font-bold hover:text-sky-200">Activities</a>
-                <a href="projects.html" class="p-2 font-bold hover:text-sky-200">Projects</a>
-            </div>
-        </nav>
+    <nav class="flex flex-row items-center px-5 py-2 gap-2 bg-orange-400">
+        <a href="index.html" class="font-bold text-2xl">ANDREA AGUILAR</a>
+        <div class="flex md:flex-row justify-end gap-8 flex-1">
+            <a href="experience.html" class="p-2 font-bold hover:text-sky-200">Experience</a>
+            <a href="contests.html" class="p-2 font-bold hover:text-sky-200">Contests</a>
+            <a href="activities.html" class="p-2 font-bold hover:text-sky-200">Activities</a>
+            <a href="projects.html" class="p-2 font-bold hover:text-sky-200">Projects</a>
+        </div>
+    </nav>
 
-        <div class="p-3">
+    <div class="flex m-10 gap-5">
+        <div class="">
             <span class="text-lg font-bold">Projects</span>
             <p>
                 Most of these projects have been co-built, you can find the other contributors on the linked repos.
             </p>
         </div>
 
-        <div class="flex items-start gap-5 p-3">
+        <div class="flex flex-col items-start gap-5 p-3">
             <div>
                 <b>Andraguoso</b>
                 <p>
@@ -65,14 +64,15 @@
                     Here</a>
             </div>
             <div>
-                <b>Helping Hearts</b>
+                <span class="font-bold">Helping Hearts</span>
                 <p>
                     Health equity website built for KWK Web Development Camp 2025. Guided two teammates
                     on CSS and JavaScript basics.
                 </p>
-                <a href="https://github.com/andraguoso/helping-hearts">GitHub Repo</a>
-                <a href="https://helping-hearts-sooty.vercel.app/" target="_blank">Live Website</a>
+                <div class="flex gap-5">
+                    <a href="https://github.com/andraguoso/helping-hearts">GitHub Repo</a>
+                    <a href="https://helping-hearts-sooty.vercel.app/" target="_blank">Live Website</a>
+                </div>
             </div>
         </div>
-    </div>
 </body>
