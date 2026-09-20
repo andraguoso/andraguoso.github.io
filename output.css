@@ -8,6 +8,8 @@
       "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-orange-200: oklch(90.1% 0.076 70.697);
+    --color-orange-300: oklch(83.7% 0.128 66.29);
     --color-orange-400: oklch(75% 0.183 55.934);
     --color-amber-100: oklch(96.2% 0.059 95.617);
     --color-sky-100: oklch(95.1% 0.026 236.824);
@@ -227,23 +229,11 @@
   .gap-8 {
     gap: calc(var(--spacing) * 8);
   }
-  .rounded-lg {
-    border-radius: var(--radius-lg);
-  }
   .rounded-md {
     border-radius: var(--radius-md);
   }
-  .bg-amber-100 {
-    background-color: var(--color-amber-100);
-  }
   .bg-orange-400 {
     background-color: var(--color-orange-400);
-  }
-  .bg-sky-100 {
-    background-color: var(--color-sky-100);
-  }
-  .p-1 {
-    padding: var(--spacing);
   }
   .p-2 {
     padding: calc(var(--spacing) * 2);
@@ -251,23 +241,11 @@
   .p-3 {
     padding: calc(var(--spacing) * 3);
   }
-  .p-5 {
-    padding: calc(var(--spacing) * 5);
-  }
-  .p-8 {
-    padding: calc(var(--spacing) * 8);
-  }
-  .p-10 {
-    padding: calc(var(--spacing) * 10);
-  }
   .px-5 {
     padding-inline: calc(var(--spacing) * 5);
   }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
-  }
-  .pl-3 {
-    padding-left: calc(var(--spacing) * 3);
   }
   .text-2xl {
     font-size: var(--text-2xl);
@@ -285,13 +263,18 @@
     font-size: var(--text-lg);
     line-height: var(--tw-leading, var(--text-lg--line-height));
   }
-  .text-xl {
-    font-size: var(--text-xl);
-    line-height: var(--tw-leading, var(--text-xl--line-height));
-  }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
+  }
+  .text-orange-200 {
+    color: var(--color-orange-200);
+  }
+  .text-orange-300 {
+    color: var(--color-orange-300);
+  }
+  .text-sky-200 {
+    color: var(--color-sky-200);
   }
   @media (hover: hover) {
     .hover\:text-sky-200:hover {
